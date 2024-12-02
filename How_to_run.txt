@@ -1,0 +1,10 @@
+1. cd into both dir
+2. npm i
+3. contract -> npx hardhat compile
+4. in new contract terminal -> npx hardhat node
+5. in the previous contract term -> npx hardhat ignition deploy ./ignition/modules/Lock.js --network localhost
+6. Connect Metamask wallet to local network:
+	port: 8545
+	chainID: 31337
+7. Connect test acc to metamask wallet.
+8. npm run dev in app term.
